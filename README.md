@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
+## Preview
+
+#### User 1
+![Screenshot from 2023-08-25 19-20-11](https://github.com/vikkastiwari/drawing-app/assets/51874681/da4f3830-c9aa-4ebc-827d-19e521a6fb54)
+
+#### User 2
+![Screenshot from 2023-08-25 19-20-13](https://github.com/vikkastiwari/drawing-app/assets/51874681/1c39e4a1-b499-4889-832b-f17b066a80df)
+
 ## Allowed origin
 - `http://localhost:4200/`
 - `http://localhost:4201/`
