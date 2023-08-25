@@ -1,0 +1,14 @@
+<div class="canvas-container">
+  <h1>{{boardName}} Drawing Board</h1>
+  <p *ngIf="sessionId">Session ID: {{sessionId}}</p>
+  <canvas
+    #canvasElement
+    width="800"
+    height="600"
+    [ngClass]="boardName === 'Blue' ? 'bg-blue' : 'bg-green'"
+    (mousedown)="startDrawing($event)"
+    (mousemove)="draw($event)"
+    (mouseup)="endDrawing()"
+    (mouseleave)="endDrawing()"
+  ></canvas>
+</div>

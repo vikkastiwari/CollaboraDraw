@@ -1,0 +1,24 @@
+<div class="header">
+  <div
+    class="tab"
+    [ngClass]="{ 'active-tab': activeTab === 'tab1' }"
+    (click)="switchTab('tab1')"
+  >
+    Blue
+  </div>
+  <div
+    class="tab"
+    [ngClass]="{ 'active-tab': activeTab === 'tab2' }"
+    (click)="switchTab('tab2')"
+  >
+    Green
+  </div>
+</div>
+<div class="content">
+  <div *ngIf="activeTab === 'tab1'">
+    <vt-blue-board></vt-blue-board>
+  </div>
+  <div *ngIf="activeTab === 'tab2'">
+    <vt-green-board></vt-green-board>
+  </div>
+</div>

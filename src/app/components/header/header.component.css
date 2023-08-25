@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  background-color: #34495e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 5px 5px 0 0;
+  color: white;
+}
+
+.active-tab {
+  background-color: white;
+  border-color: #ccc;
+  color: #34495e;
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white; 
+}
